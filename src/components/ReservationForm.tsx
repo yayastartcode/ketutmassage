@@ -8,6 +8,7 @@ export function ReservationForm() {
   const [formData, setFormData] = useState({
     name: '',
     whatsapp: '',
+    address: '',
     service: '',
   })
 
@@ -35,7 +36,7 @@ export function ReservationForm() {
     e.preventDefault()
     
     // Build WhatsApp message
-    const message = `Halo, saya ingin reservasi layanan:\n\nNama: ${formData.name}\nNo WhatsApp: ${formData.whatsapp}\nLayanan: ${formData.service}`
+    const message = `Halo, saya ingin reservasi layanan:\n\nNama: ${formData.name}\nNo WhatsApp: ${formData.whatsapp}\nAlamat: ${formData.address}\nLayanan: ${formData.service}`
     
     // Open WhatsApp using centralized config
     window.open(getWhatsAppLink(message), '_blank')
@@ -94,6 +95,21 @@ export function ReservationForm() {
                 onChange={(e) => setFormData({ ...formData, whatsapp: e.target.value })}
                 placeholder="Contoh: 08123456789"
                 className="w-full px-4 py-3 rounded-lg border-2 border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition-all"
+              />
+            </div>
+
+            {/* Address */}
+            <div>
+              <label className="block text-slate-900 font-semibold mb-2 text-lg">
+                Alamat
+              </label>
+              <textarea
+                required
+                value={formData.address}
+                onChange={(e) => setFormData({ ...formData, address: e.target.value })}
+                placeholder="Masukkan alamat lengkap Anda"
+                rows={3}
+                className="w-full px-4 py-3 rounded-lg border-2 border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition-all resize-none"
               />
             </div>
 
