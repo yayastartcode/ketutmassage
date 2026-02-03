@@ -67,12 +67,7 @@ const services = [
       "Relieves and helps relax while releasing wind from the body, making you feel refreshed again",
     image: "/images/service/kerokan.jpg",
   },
-  {
-    title: "Brazilian Waxing",
-    description:
-      "A popular hair removal method for the intimate area, including the bikini area and surroundings, using hot wax that is pulled to remove hair from the root.",
-    image: "/images/service/brazilianwaxing.jpg",
-  },
+
   {
     title: "Wet Cupping Therapy",
     description:
@@ -96,12 +91,7 @@ const services = [
     description: "Enhances facial radiance for a more youthful appearance",
     image: "/images/service/ttkwjh.jpg",
   },
-  {
-    title: "Acupuncture",
-    description:
-      "Helps brighten nerves, tighten facial skin, treat melasma, delay aging, and make you look younger",
-    image: "/images/service/akupuntur.jpg",
-  },
+
 ];
 
 const WA_NUMBER = "6285938381332";
