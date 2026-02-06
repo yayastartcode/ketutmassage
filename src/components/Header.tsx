@@ -29,7 +29,7 @@ export function Header() {
           <div className="flex items-center">
             <a href="/" className="flex flex-col">
               <span className="text-3xl font-bold text-slate-900">Canggu Massage</span>
-              <span className="text-sm text-slate-600">24-Hour Home Service</span>
+              <span className="text-sm text-slate-600">Healing 24 Hour</span>
             </a>
           </div>
 
