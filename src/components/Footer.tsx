@@ -25,7 +25,7 @@ export function Footer() {
             </div>
             <p className="text-slate-400 leading-relaxed mb-4">
               Ketut Massage is the best solution for certified traditional
-              massage and therapy. 24-hour service with professional therapists
+              massage and therapy. Service with professional therapists
               coming to your location.
             </p>
           </div>

@@ -19,7 +19,7 @@ export function ContactMap() {
         >
           <h2 className="text-4xl font-bold text-slate-900 mb-4">Service Area</h2>
           <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-            Enjoy the massage experience without leaving your home. We are ready to visit you anywhere and anytime, especially in the Canggu and surrounding areas. Our service is available 24 hours a day. Book directly through WhatsApp without needing to download additional apps.
+            Enjoy the massage experience without leaving your home. We are ready to visit you anywhere and anytime, especially in the Jimbaran and surrounding areas. Our service is available 12 hours a day. Book directly through WhatsApp without needing to download additional apps.
           </p>
         </motion.div>
 
@@ -86,7 +86,7 @@ export function ContactMap() {
 
             <div className="bg-slate-100 rounded-2xl p-6">
               <h4 className="font-semibold text-slate-900 mb-3">Operating Hours</h4>
-              <p className="text-2xl font-bold text-blue-600">24 Hours</p>
+              <p className="text-2xl font-bold text-blue-600">12 Working Hours / Days</p>
               <p className="text-slate-600 text-sm mt-1">Every day, including holidays</p>
             </div>
           </motion.div>

@@ -57,8 +57,7 @@ export function WhyChooseUs() {
               You can choose according to what you want.
             </p>
             <p className="text-lg text-slate-600 leading-relaxed">
-              Therefore Ketut Massage is a 24-hour call service to provide
-              24-hour service and therapists come to the customer's location.
+              Therefore Ketut Massage  provide service and therapists come to the customer's location.
               Benefits of choosing us:
             </p>
 

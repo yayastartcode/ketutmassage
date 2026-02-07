@@ -8,10 +8,7 @@ import {
 
 export function FAQSection() {
   const faqs = [
-    {
-      question: "Is the massage service available 24 hours?",
-      answer: "Yes, our service is available 24 hours every day including holidays. You can book anytime according to your needs.",
-    },
+
     {
       question: "How do I book a massage service?",
       answer: "Simply contact us via WhatsApp, choose the service type you want, and our therapist will come to your location.",
@@ -56,7 +53,7 @@ export function FAQSection() {
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
             Questions About Our
             <br />
-            24-Hour Home Massage Service
+            Home Massage Service
           </h2>
         </motion.div>
 
