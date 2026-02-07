@@ -52,7 +52,7 @@ const services = [
   {
     title: "Package Balinese Massage + Ear Candle + Mini Facial",
     description: "Complete relaxation package combining massage, ear therapy, and facial.",
-    price: "IDR 350K",
+    price: "IDR 500K",
     image: "/images/service/vitalitasmassage.jpg",
   },
 ];
