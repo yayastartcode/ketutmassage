@@ -5,15 +5,15 @@ const testimonials = [
   {
     id: 1,
     name: "Sarah Johnson",
-    location: "Canggu",
+    location: "Jimbaran",
     rating: 5,
-    text: "Amazing service! The therapist arrived on time and was very professional. The massage was exactly what I needed after a long week of surfing. Highly recommend Canggu Massage!",
+    text: "Amazing service! The therapist arrived on time and was very professional. The massage was exactly what I needed after a long week of surfing. Highly recommend Ketut Massage!",
     avatar: "S",
   },
   {
     id: 2,
     name: "Michael Chen",
-    location: "Seminyak",
+    location: "Jimbaran",
     rating: 5,
     text: "Best home massage service I've ever experienced. The therapist was skilled, friendly, and really knew how to work out my knots. Will definitely book again!",
     avatar: "M",
@@ -21,25 +21,25 @@ const testimonials = [
   {
     id: 3,
     name: "Emma Williams",
-    location: "Kuta",
+    location: "Jimbaran",
     rating: 5,
-    text: "I was skeptical about a home massage service, but Canggu Massage exceeded my expectations. Professional, clean, and incredibly relaxing. The Balinese massage was perfect!",
+    text: "I was skeptical about a home massage service, but Ketut Massage exceeded my expectations. Professional, clean, and incredibly relaxing. The Balinese massage was perfect!",
     avatar: "E",
   },
   {
     id: 4,
     name: "David Smith",
-    location: "Denpasar",
+    location: "Jimbaran",
     rating: 5,
-    text: "The Thai massage was incredible! The therapist was knowledgeable and customized the pressure to my liking. Booking was easy and they were punctual. Great experience!",
+    text: "The Balinese massage was incredible! The therapist was knowledgeable and customized the pressure to my liking. Booking was easy and they were punctual. Great experience!",
     avatar: "D",
   },
   {
     id: 5,
     name: "Lisa Anderson",
-    location: "Canggu",
+    location: "Jimbaran",
     rating: 5,
-    text: "I've tried many massage services in Bali, but Canggu Massage is by far the best. The therapist is certified and it shows in the quality of the massage. Absolutely love it!",
+    text: "I've tried many massage services in Bali, but Ketut Massage is by far the best. The therapist is certified and it shows in the quality of the massage. Absolutely love it!",
     avatar: "L",
   },
 ];
@@ -63,7 +63,7 @@ export function TestimonialsSection() {
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
             Don't just take our word for it. Here's what our satisfied clients
-            have to say about their experience with Canggu Massage.
+            have to say about their experience with Ketut Massage.
           </p>
         </motion.div>
 

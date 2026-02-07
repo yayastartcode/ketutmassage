@@ -2,99 +2,62 @@ import { motion } from "motion/react";
 
 const services = [
   {
-    title: "Traditional Massage",
-    description:
-      "Traditional Massage is perfect for those in need of fatigue relief after a busy day. Uses traditional massage techniques to improve blood circulation and relieve muscle tension.",
-    image: "/images/service/tradisionalmesage.jpg",
-  },
-  {
-    title: "Massage + Body Scrub",
-    description:
-      "Body relaxation + skin scrub to remove dead skin cells and brighten the skin",
-    image: "/images/service/massagelulur.jpg",
-  },
-  {
-    title: "Swedish Massage",
-    description:
-      "European-style massage technique with gentle strokes and slow rhythm. Helps relieve stress, improve circulation, and bring deep relaxation.",
-    image: "/images/service/swedishmassage.jpg",
-  },
-  {
-    title: "Deep Tissue Massage",
-    description:
-      "Massage technique focusing on breaking up adhesions and tension in deeper muscles and connective tissue",
-    image: "/images/service/deepmassage.jpg",
-  },
-  {
-    title: "Vitality Massage",
-    description:
-      "Vitality Massage for women to increase stamina, improve blood circulation, and maintain body fitness. Helps reduce fatigue, stiffness, and maintain vitality naturally.",
-    image: "/images/service/vitalitasmassage.jpg",
-  },
-  {
-    title: "Thai Massage + Stretching",
-    description:
-      "Thai massage can help relieve stress, increase flexibility, reduce muscle tension, improve energy flow, and provide overall relaxation.",
-    image: "/images/service/thaimassage.jpg",
-  },
-  {
-    title: "Facial Acupressure + Full Body Massage",
-    description:
-      "Gentle full body + face massage that calms the mind and body. Suitable for relieving stress, balancing emotions, and helping you sleep soundly",
-    image: "/images/service/totokwajah.jpg",
-  },
-  {
-    title: "Shiatsu Massage",
-    description:
-      "To vitalize energy and relieve muscle tension, as well as enhance relaxation and overall well-being.",
-    image: "/images/service/shiatsu.jpg",
-  },
-  {
     title: "Balinese Massage",
-    description:
-      "Combining various massage techniques, acupressure, reflexology, and aromatherapy to provide a comprehensive relaxation experience",
+    description: "Traditional Balinese massage techniques to improve blood circulation and relieve muscle tension.",
+    price: "60 minutes IDR 250 K / 90 Minute IDR 300 K",
     image: "/images/service/balinese.jpg",
   },
   {
-    title: "Javanese Massage",
-    description:
-      "To vitalize energy (qi) and relieve muscle tension, as well as enhance relaxation and overall well-being",
-    image: "/images/service/javanese.jpg",
+    title: "Deep Tissue",
+    description: "Focusing on deeper layers of muscle tissue to release chronic muscle tension.",
+    price: "60 minute IDR 250 K / 90 minute IDR 300K",
+    image: "https://res.cloudinary.com/dk0z4ums3/image/upload/v1763002825/attached_image/deep-tissue-massage-ketahui-manfaat-dan-hal-hal-yang-perlu-diperhatikan.jpg",
   },
   {
-    title: "Indonesian Coin Scraping (Kerokan)",
-    description:
-      "Relieves and helps relax while releasing wind from the body, making you feel refreshed again",
-    image: "/images/service/kerokan.jpg",
-  },
-
-  {
-    title: "Wet Cupping Therapy",
-    description:
-      "Increases body resistance for better health and helps improve blood circulation",
-    image: "/images/service/bekambasah.jpg",
+    title: "Hot Stone",
+    description: "Therapeutic massage using smooth, heated stones to melt away tension.",
+    price: "IDR 350K",
+    image: "https://facesspa.com/wp-content/uploads/2022/10/Adult-woman-having-hot-stone-m-1024x768.jpg",
   },
   {
-    title: "Sports Massage",
-    description:
-      "Stretches tense muscles; sports massage can also stimulate inactive muscles and improve soft tissue condition",
-    image: "/images/service/sportmassage.jpg",
+    title: "Traditional Facial",
+    description: "Natural facial treatment to cleanse and rejuvenate your skin.",
+    price: "IDR 200K",
+    image: "https://remedytupelo.com/storage/2022/10/What-Is-A-Traditional-Facial-1024x683.jpeg",
   },
   {
-    title: "Full Body Massage & Reflexology",
-    description:
-      "Combination of full body massage and reflexology that provides more benefits to your body",
-    image: "/images/service/fullbodymassage.jpg",
+    title: "Ear Candle",
+    description: "Gentle therapeutic treatment to clear ear canals and improve balance.",
+    price: "IDR 150K",
+    image: "https://cdn.hellosehat.com/wp-content/uploads/2017/07/terapi-ear-candle.jpg",
   },
   {
-    title: "Facial Acupressure",
-    description: "Enhances facial radiance for a more youthful appearance",
-    image: "/images/service/ttkwjh.jpg",
+    title: "Pedicure",
+    description: "Relaxing cosmetic treatment for your feet and toenails.",
+    price: "IDR 200K",
+    image: "https://res.cloudinary.com/dk0z4ums3/image/upload/v1759916925/attached_image/pedicure-perawatan-untuk-kaki-dan-kuku-agar-tetap-menawan.jpg",
   },
-
+  {
+    title: "Manicure",
+    description: "Beauty treatment for your hands and fingernails.",
+    price: "IDR 180K",
+    image: "https://classpass.com/blog/wp-content/uploads/2021/03/Spa-Manicure-ClassPass-scaled.jpg",
+  },
+  {
+    title: "Foot Scrub",
+    description: "Exfoliating treatment to remove dead skin and revitalize your feet.",
+    price: "60 minute IDR 225K",
+    image: "https://qimassageandnaturalhealingspa.com/wp-content/uploads/2020/07/Depositphotos_68264679_xl-2015.jpg",
+  },
+  {
+    title: "Package Balinese Massage + Ear Candle + Mini Facial",
+    description: "Complete relaxation package combining massage, ear therapy, and facial.",
+    price: "IDR 350K",
+    image: "/images/service/vitalitasmassage.jpg",
+  },
 ];
 
-const WA_NUMBER = "6285938381332";
+const WA_NUMBER = "6282339909121";
 
 export function ServicesSection() {
   return (
@@ -136,8 +99,11 @@ export function ServicesSection() {
                 <p className="text-slate-600 text-sm mb-4">
                   {service.description}
                 </p>
+                <p className="text-emerald-600 font-bold mb-4 font-mono text-sm">
+                  {service.price}
+                </p>
                 <a
-                  href={`https://wa.me/${WA_NUMBER}?text=Hello, I would like to inquire about your Canggu Massage services`}
+                  href={`https://wa.me/${WA_NUMBER}?text=Hello, I would like to inquire about your Ketut Massage services`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg font-semibold transition-colors"

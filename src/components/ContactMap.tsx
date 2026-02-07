@@ -3,10 +3,8 @@ import { MapPin, Phone } from "lucide-react";
 import { getWhatsAppLink, formatWhatsAppNumber } from "@/lib/config";
 
 const locations = [
-  "Canggu",
-  "Kuta",
-  "Denpasar",
-  "Seminyak",
+  "Jimbaran",
+
 ];
 
 export function ContactMap() {
@@ -44,6 +42,19 @@ export function ContactMap() {
                 <span key={i} className="text-slate-700">{loc}</span>
               ))}
             </div>
+
+            <div className="mt-8 rounded-xl overflow-hidden shadow-inner h-64 w-full bg-slate-200">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3942.9840812506977!2d115.16006807501596!3d-8.78756499126443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwNDcnMTUuMiJTIDExNcKwMDknNDUuNSJF!5e0!3m2!1sid!2sid!4v1770442085374!5m2!1sid!2sid"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen={true}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Google Maps Location"
+              />
+            </div>
           </motion.div>
 
           {/* WhatsApp & Hours */}
@@ -61,7 +72,7 @@ export function ContactMap() {
                 <div>
                   <h3 className="text-xl font-bold text-slate-900 mb-2">Contact Us</h3>
                   <a
-                    href={getWhatsAppLink("Hello, I would like to inquire about your Canggu Massage services")}
+                    href={getWhatsAppLink("Hello, I would like to inquire about your Ketut Massage services")}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-2xl font-bold text-green-600 hover:text-green-700 transition-colors"

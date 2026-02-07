@@ -24,7 +24,7 @@ export function WhyChooseUs() {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="/images/whycus.webp"
+                src="/images/ktabt.jpeg"
                 alt="Why Choose Us"
                 className="w-full h-[500px] object-cover"
               />
@@ -44,20 +44,20 @@ export function WhyChooseUs() {
             </h2>
             <p className="text-lg text-slate-600 leading-relaxed">
               Rest alone is sometimes not enough to help the body recover,
-              so Canggu Massage is often the solution of choice when the body
-              feels sore and tired. Canggu Massage is the best solution for gentle yet
+              so Ketut Massage is often the solution of choice when the body
+              feels sore and tired. Ketut Massage is the best solution for gentle yet
               powerful massage - a certified traditional therapy capable of
               addressing various complaints, from fatigue to catching a cold.
             </p>
             <p className="text-lg text-slate-600 leading-relaxed">
-              Bali areas like Canggu, Seminyak, Kuta, and Denpasar
+              Bali areas like Jimbaran
               are bustling tourist destinations where your body needs relaxation, so
-              the body becomes more relaxed and refreshed. Canggu Massage provides
+              the body becomes more relaxed and refreshed. Ketut Massage provides
               professional and certified staff according to therapy expertise.
               You can choose according to what you want.
             </p>
             <p className="text-lg text-slate-600 leading-relaxed">
-              Therefore Canggu Massage is a 24-hour call service to provide
+              Therefore Ketut Massage is a 24-hour call service to provide
               24-hour service and therapists come to the customer's location.
               Benefits of choosing us:
             </p>

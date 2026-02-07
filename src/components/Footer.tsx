@@ -1,17 +1,14 @@
 export function Footer() {
   const services = [
-    "Traditional Massage",
-    "Massage + Body Scrub",
-    "Swedish Massage",
-    "Deep Tissue Massage",
-    "Vitality Massage",
-    "Thai Massage + Stretching",
-    "Shiatsu Massage",
     "Balinese Massage",
-    "Javanese Massage",
-    "Sports Massage",
-    "Full Body Massage & Reflexology",
-    "Wet Cupping Therapy",
+    "Deep Tissue",
+    "Hot Stone",
+    "Traditional Facial",
+    "Ear Candle",
+    "Pedicure",
+    "Manicure",
+    "Foot Scrub",
+    "Package Balinese Massage + Ear Candle + Mini Facial",
   ];
 
   const currentYear = new Date().getFullYear();
@@ -23,11 +20,11 @@ export function Footer() {
           {/* Logo & Description */}
           <div className="lg:col-span-1">
             <div className="mb-4">
-              <h2 className="text-2xl font-bold text-white">Canggu Massage</h2>
-              <p className="text-sm text-slate-400">Healing 24-Hour</p>
+              <h2 className="text-2xl font-bold text-white">Ketut Massage</h2>
+              <p className="text-sm text-slate-400">Home Services</p>
             </div>
             <p className="text-slate-400 leading-relaxed mb-4">
-              Canggu Massage is the best solution for certified traditional
+              Ketut Massage is the best solution for certified traditional
               massage and therapy. 24-hour service with professional therapists
               coming to your location.
             </p>
@@ -50,7 +47,7 @@ export function Footer() {
         <div className="border-t border-slate-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-slate-400 text-sm">
-              © {currentYear} Canggu Massage. All rights reserved.
+              © {currentYear} Ketut Massage. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm text-slate-400">
               <a href="#" className="hover:text-white transition-colors">

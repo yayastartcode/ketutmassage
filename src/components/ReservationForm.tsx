@@ -12,23 +12,15 @@ export function ReservationForm() {
   })
 
   const services = [
-    'Traditional Massage',
-    'Massage + Body Scrub',
-    'Swedish Massage',
-    'Deep Tissue Massage',
-    'Vitality Massage',
-    'Thai Massage + Stretching',
-    'Facial Acupressure + Full Body Massage',
-    'Shiatsu Massage',
     'Balinese Massage',
-    'Javanese Massage',
-    'Indonesian Coin Scraping (Kerokan)',
-    'Brazilian Waxing',
-    'Wet Cupping Therapy',
-    'Sports Massage',
-    'Full Body Massage & Reflexology',
-    'Facial Acupressure',
-    'Acupuncture',
+    'Deep Tissue',
+    'Hot Stone',
+    'Traditional Facial',
+    'Ear Candle',
+    'Pedicure',
+    'Manicure',
+    'Foot Scrub',
+    'Package Balinese Massage + Ear Candle + Mini Facial',
   ]
 
   const handleSubmit = (e: FormEvent) => {

@@ -4,7 +4,7 @@ export function WhatsAppButton() {
   const handleClick = () => {
     window.open(
       getWhatsAppLink(
-        "Hello, I would like to inquire about your Canggu Massage services"
+        "Hello, I would like to inquire about your Ketut Massage services"
       ),
       "_blank"
     );

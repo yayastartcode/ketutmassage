@@ -29,7 +29,7 @@ export function Hero() {
             transition={{ delay: 0.2, duration: 0.8 }}
             className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900"
           >
-            Canggu Massage - Healing 24- Hour
+            Ketut Massage - Home Services
           </motion.h1>
 
           <motion.p
@@ -39,7 +39,7 @@ export function Hero() {
             className="text-xl sm:text-2xl text-slate-900 max-w-3xl mx-auto font-medium"
           >
             We offer various Traditional Massage, Full Body Treatment, and
-            Aromatherapy Massage services directly at YOUR location. You no
+            Facial services directly at your location. You no
             longer need to get stuck in traffic or queue at wellness centers. We
             come bringing relaxation directly to your home, apartment, or even
             hotel.

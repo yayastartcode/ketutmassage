@@ -18,7 +18,7 @@ export function FAQSection() {
     },
     {
       question: "What areas are served?",
-      answer: "We serve the Bali area including Canggu, Seminyak, Kuta, Denpasar, and surrounding areas.",
+      answer: "We serve the Bali area including Jimbaran and surrounding areas.",
     },
     {
       question: "Are the therapists certified?",

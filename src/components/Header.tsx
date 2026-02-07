@@ -7,7 +7,6 @@ export function Header() {
 
   const navLinks = [
     { name: "Home", href: "#" },
-    { name: "About", href: "#about" },
     { name: "Why Choose Us", href: "#why-choose-us" },
     { name: "Services", href: "#services" },
     { name: "Testimonials", href: "#testimonials" },
@@ -16,7 +15,7 @@ export function Header() {
 
   const handleContactClick = () => {
     window.open(
-      getWhatsAppLink("Hello, I would like to inquire about your Canggu Massage services"),
+      getWhatsAppLink("Hello, I would like to inquire about your Ketut Massage services"),
       "_blank"
     );
   };
@@ -26,10 +25,14 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-32">
           {/* Logo - Text Based */}
+          {/* Logo - Image Based */}
           <div className="flex items-center">
             <a href="/" className="flex flex-col">
-              <span className="text-3xl font-bold text-slate-900">Canggu Massage</span>
-              <span className="text-sm text-slate-600">Healing 24 Hour</span>
+              <img
+                src="/images/kttlg.png"
+                alt="Ketut Massage Logo"
+                className="h-24 w-auto object-contain"
+              />
             </a>
           </div>
 
